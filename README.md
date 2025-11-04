@@ -240,3 +240,4 @@ Encoded message:
 Think of yourself as designing a basic ciphering algorithm.  
 The more frequent a symbol, the shorter its binary key.  
 Efficient encoders like this are the backbone of secure and compressed data transfer systems.
+
