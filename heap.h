@@ -39,7 +39,7 @@ struct MinHeap {
         size--;
         data[0] = data[size];
         downheap(0, weightArr);
-        return minIdx; // placeholder
+        return minIdx;
     }
 
     void upheap(int pos, int weightArr[]) {
