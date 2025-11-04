@@ -60,10 +60,10 @@ struct MinHeap {
             int rightChild = 2 * pos + 2;
             int minIdx = pos;
             // Pick smaller child
-            if (leftChild < size && weightArr[data[leftChild]] > weightArr[data[minIdx]]) {
+            if (leftChild < size && weightArr[data[leftChild]] < weightArr[data[minIdx]]) {
                 minIdx = leftChild;
             }
-            if (rightChild < size && weightArr[data[rightChild]] > weightArr[data[minIdx]]) {
+            if (rightChild < size && weightArr[data[rightChild]] < weightArr[data[minIdx]]) {
                 minIdx = rightChild;
             }
             // If child is smaller than parent, move smaller up, move continue down checking
